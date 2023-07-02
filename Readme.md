@@ -1,14 +1,21 @@
-0/ Install Crystal
+## Install Crystal
+```bash
 sh install.sh
+```
 
-1/ How to build:
+## How to build
+```bash
 crystal build hello_world.cr
+```
 
 or build for release
 
+```bash
 crystal build hello_world.cr --release
+```
 
-2/ Compiler commands
+## Some Crystal commands
+```bash
 crystal init: generate a new project
 crystal build: build an executable
 crystal docs: generate documentation
@@ -20,3 +27,4 @@ crystal spec: build and run specs
 crystal tool: run a compiler tool
 crystal help: show help about commands and options
 crystal version: show version
+```
